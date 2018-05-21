@@ -1,0 +1,91 @@
+body{
+  background-color : #000;
+}
+
+.pageSection{
+  margin: 0;
+  width: 95vw;
+  height: 100vh;
+  background-color: #555;
+}
+
+.main{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14vh;
+  position:relative;
+}
+
+.hexButton{
+  width: 22%;
+  display: block;
+  transition: 0.1s;
+  user-drag: none;
+  user-select: none;
+}
+
+.hexButton:hover{
+  transform: scale(1.15,1.15);
+  transition: 0.2s;
+}
+
+#mainImage{
+  width: 28vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+/* MAIN MENU BUTTON POSITIONING */
+
+/*BOTTOM BUTTOM*/
+#inicioButton{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+/*BOTTOM RIGHT BUTTOM*/
+#bioButton{
+  margin-left: auto;
+  margin-right: 15%;
+  margin-top: -12%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+/*BOTTOM LEFT BUTTON*/
+#videoButton{
+  margin-left: 15%;
+  margin-right: auto;
+  margin-top: -12%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+/*TOP RIGHT BUTTON*/
+#fotoButton{
+  margin-left: auto;
+  margin-right: 12%;
+  margin-top: -35%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+/*TOP LEFT BUTTON*/
+#discoButton{
+  margin-left: 12%;
+  margin-right: auto;
+  margin-top: -35%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}

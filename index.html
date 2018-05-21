@@ -1,68 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Wasted Place</title>
-<meta charset ="UTF-8">
-<link rel="stylesheet" type="text/css" href="CSS/wasted.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<div id="logo"><center><img src="IMG/wastedlogoblack.jpg" height="300"></center></img></div>
+  <title>Wasted Place</title>
+  <meta charset ="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
-<body bgcolor="black" background="componentes.jpg">
-    <div class="row">
-        <div class="col-xs-4">Columna 1</div>
-        <div class="col-xs-4">Columna 2</div>
-        <div class="col-xs-4">Columna 3</div>
+<body>
+
+    <div class = "main">
+      <img id = "mainImage" src = "IMG/wastedlogoblack.jpg">
+
+      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="inicioButton">
+      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="bioButton">
+      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="videoButton">
+      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="fotoButton">
+      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="discoButton">
     </div>
 
-    <div id="noticias"><align="right">uafskldfjhaslidfh</align></div>
-
-    <section>
-
-        <h1>SECTION</h1>
-        <p>SECTION.</p>
-
-        <article>
-        Somos una banda
-        </article>
-    </section>
-
-    <aside>Esto es el aside</aside>
-
-</table>
-    <ul id="lista"><br><br>
-        <td>
-         <tr><a href="wastedg01.jpg" target="_blank"><img class="image" src="IMG/wastedg01.jpg" height="200" width="300"></img></a></tr>
-         <tr><a href="wastedg02.jpg" target="_blank"><img class="image" src="IMG/wastedg02.jpg" height="200" width="300"></img></a></tr>
-         <tr><a href="wastedg03.jpg" target="_blank"><img class="image" src="IMG/wastedg03.jpg" height="200" width="300"></img></a></tr>
-         <tr><a href="wastedg04.jpg" target="_blank"><img class="image" src="IMG/wastedg04.jpg" height="200" width="300"></img></a></tr>
-        </td>
-     </ul>
-
-    <script>
-
-    /*JQUERY GALERÍA*/
-
-        $(document).ready(function(){
-                $(".image").mouseenter(function(){
-                    $(this).fadeTo("slow", 0.15);
-
-                });
-         });
-
-         $(document).ready(function(){
-                $(".image").mouseleave(function(){
-                    $(this).fadeTo("slow", 1);
-
-                });
-         });
-
-
-
-
-    </script>
-
-
 </body>
-
 </html>
