@@ -7,6 +7,22 @@ html {
     background: transparent;  /* optional: just make scrollbar invisible */
 }
 
+#fbIcon{
+  width : 15vh;
+  margin-left: 2%;
+  margin-right: auto;
+  margin-top: 8%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  transition: 0.5s;
+}
+
+#fbIcon:hover{
+  transform:scale(1.4,1.4);
+  transition: 0.5s;
+}
+
 #mainMenu{
   background-image: url("IMG/Final/final2.jpg");
   background-size: cover;
