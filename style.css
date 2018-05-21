@@ -1,12 +1,63 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+#mainMenu{
+  background-image: url("IMG/Final/final2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 body{
   background-color : #000;
+  font-size: 2vw;
+  color : white;
+}
+
+.sideBarButton{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  margin-bottom: auto;
+  width: 4.5vw;
+  top : 34vh;
+  bottom : 0;
+  position : relative;
+  vertical-align : middle;
+  transition: 0.4s;
+  padding: 5%;
+}
+
+.sideBarButton:hover{
+  transform: scale(1.4,1.4);
+  transition: 0.2s;
+  background: rgba(255,153,51,0.25);
+}
+
+
+.sideBar {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 .pageSection{
-  margin: 0;
-  width: 95vw;
-  height: 100vh;
-  background-color: #555;
+  width : 98vw;
+  height : 100vh;
+  padding : 15vh;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position : relative;
 }
 
 .main{
@@ -18,20 +69,27 @@ body{
 }
 
 .hexButton{
-  width: 22%;
+  content:url("IMG/UI/hexGeneric.png");
+  width: 21%;
   display: block;
-  transition: 0.1s;
+  transition: 0.5s;
   user-drag: none;
   user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .hexButton:hover{
+  content:url("IMG/UI/hexGeneric2.png");
   transform: scale(1.15,1.15);
   transition: 0.2s;
 }
 
 #mainImage{
   width: 28vw;
+  transform:scale(2,2);
   margin-left: auto;
   margin-right: auto;
   display: block;
