@@ -1,0 +1,27 @@
+#logo {
+    padding:50 px;
+}
+#maintext {
+    color: white;
+    float: left;
+}
+
+.row{
+    color: white;
+}
+
+
+#noticias {
+    color:white;
+    
+}
+section {
+    color: white;
+    float: none;
+}
+article {
+    color: white;
+}
+aside {
+    color: white;
+}
