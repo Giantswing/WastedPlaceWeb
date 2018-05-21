@@ -9,17 +9,14 @@ html {
 
 #fbIcon{
   width : 15vh;
-  margin-left: 2%;
-  margin-right: auto;
-  margin-top: 8%;
-  left: 0;
-  right: 0;
+  bottom: 3%;
+  left: 2%;
   position: absolute;
   transition: 0.5s;
 }
 
 #fbIcon:hover{
-  transform:scale(1.4,1.4);
+  width : 18vh;
   transition: 0.5s;
 }
 
