@@ -79,9 +79,15 @@ h1{
 }
 
 .hexButton:hover{
-  content:url("IMG/UI/hexGeneric2.png");
   transform: scale(1.15,1.15);
   transition: 0.2s;
+}
+
+.hexText{
+  text-align: center;
+  margin-top: -4vh;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 0px 0px 15px rgba(255,255,255,0.4);
 }
 
 
@@ -98,7 +104,7 @@ h1{
 .pageSection{
   width : 98vw;
   height : 100vh;
-  padding : 13vh;
+  padding : 8vh;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -122,8 +128,9 @@ h1{
   transition: 0.5s;
 }
 
+
 .hexButton{
-  content:url("IMG/UI/hexGeneric.png");
+  position: absolute;
   width: 17vw;
   display: block;
   transition: 0.5s;
@@ -134,6 +141,8 @@ h1{
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
+
 
 /*BOTTOM BUTTOM*/
 #inicioButton{
@@ -272,4 +281,13 @@ h1{
     margin-top: 77vh;
     margin-left: 5vw;
   }
+}
+
+
+img.hexButton{
+  content:url("IMG/UI/hexGeneric.png");
+}
+
+img.hexButton:hover{
+  content:url("IMG/UI/hexGeneric2.png");
 }

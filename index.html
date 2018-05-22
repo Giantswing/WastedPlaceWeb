@@ -14,6 +14,7 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 </head>
 
@@ -22,8 +23,12 @@
     <div class = "pageSection" id = "mainMenu">
       <img id = "mainImage" src = "IMG/WastedLogo.png">
 
-      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="inicioButton">
-      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="bioButton">
+      <div class = "hexButton" id="inicioButton" onclick="$(window).scrollTo('#bio',350);">
+        <img src = "IMG/UI/hexGeneric.png" class = "hexButton" >
+        <div class = "hexText">ACTUALIDAD</div>
+      </div>
+
+      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="bioButton" onclick="alert('aaa')">
       <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="videoButton">
       <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="fotoButton">
       <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="discoButton">
@@ -33,14 +38,14 @@
   </section>
 
   <section class = "scrollSnap">
-    <div class = "pageSection" id = "bio">
-      <h1>¿Quiénes somos?</h1>
+    <div class = "pageSection" id = "actualidad">
+      <h1>Actualidad</h1>
     </div>
   </section>
 
   <section class = "scrollSnap">
-    <div class = "pageSection">
-      Texto de ejemplo
+    <div class = "pageSection" id = "bio">
+      <h1>¿Quiénes somos?</h1>
     </div>
   </section>
 
@@ -54,6 +59,7 @@
     <!-- External scripts -->
     <script src="jquery-3.3.1.min.js"></script>
     <script src="jquery.scrollify.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
     <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>

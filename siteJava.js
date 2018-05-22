@@ -17,6 +17,8 @@ $.scrollify({
     afterRender:function() {}
   });
 
+
+
 /*
 var currentPosition=0;
 var heightToGo = 0;
