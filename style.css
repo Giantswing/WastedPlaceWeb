@@ -15,8 +15,28 @@ body{
 }
 
 #fbIcon:hover{
-  width : 18vh;
+  width : 15vh;
   transition: 0.5s;
+}
+
+#igIcon:hover{
+  width : 15vh;
+  transition: 0.5s;
+}
+
+#ytIcon:hover{
+  width : 15vh;
+  transition:0.5s;
+}
+
+#scIcon:hover{
+  width : 15vh;
+  transition:0.5s;
+}
+
+.socialMedia:hover{
+  width : 15vh;
+  transition:0.5s;
 }
 
 h1{
@@ -37,6 +57,26 @@ h1{
   background-size: cover;
   background-position: center;
 }
+#actualidad{
+  background-image: url("IMG/Final/final3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#discos{
+  background-image: url("IMG/Final/final4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#galeria{
+  background-image: url("IMG/Final/final5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#videos{
+  background-image: url("IMG/Final/final6.jpg");
+  background-size: cover;
+  background-position: center;
+}
 /*-------------------------*/
 
 .sideBarButton{
@@ -44,7 +84,7 @@ h1{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-bottom: auto;
   width: 4.5vw;
   top : 34vh;
@@ -83,6 +123,11 @@ h1{
   transition: 0.2s;
 }
 
+.iconImage{
+  width : 16vw;
+  position: absolute;
+}
+
 /* SPECIFIC WINDOW SIZE STUFF*/
 
 /* ON PC --------------------------------------------------------------------------------*/
@@ -94,7 +139,7 @@ h1{
   }
 
 .pageSection{
-  width : 98vw;
+  width : 100vw;
   height : 100vh;
   padding : 10vh;
   -webkit-box-sizing: border-box;
@@ -113,13 +158,36 @@ h1{
 }
 
 #fbIcon{
-  width : 15vh;
+  width : 10vh;
   bottom: 3%;
   left: 2%;
   position: absolute;
   transition: 0.5s;
 }
 
+#igIcon{
+  width : 10vh;
+  bottom: 15%;
+  left: 2%;
+  position: absolute;
+  transition: 0.5s;
+}
+
+#ytIcon{
+  width : 10vh;
+  bottom: 27%;
+  left: 2%;
+  position: absolute;
+  transition: 0.5s;
+}
+
+#scIcon{
+  width : 10vh;
+  bottom: 39%;
+  left: 2%;
+  position: absolute;
+  transition: 0.5s;
+}
 
 .hexButton{
   position: absolute;
@@ -151,6 +219,7 @@ h1{
   left: 0;
   right: 0;
   position: absolute;
+
 }
 
 /*BOTTOM RIGHT BUTTOM*/
@@ -223,8 +292,41 @@ h1{
   }
 
   #fbIcon{
-    width : 15vh;
-    bottom: 3%;
+    width : 9vh;
+    bottom: 1%;
+    right: 2%;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: 1;
+  }
+
+  #igIcon{
+    width : 9vh;
+    bottom: 12%;
+    right: 2%;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: 1;
+  }
+
+  #ytIcon{
+    width : 9vh;
+    bottom: 23%;
+    right: 2%;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: 1;
+  }
+
+  #scIcon{
+    width : 9vh;
+    bottom: 34%;
     right: 2%;
     left: 0;
     position: absolute;

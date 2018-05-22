@@ -576,6 +576,7 @@ if touchScroll is false - update index
         window.addEventListener("orientationchange", util.handleOrientation, false);
       }
     }
+
     function interstitialScroll(pos) {
       if( $().velocity ) {
         $(settings.target).stop().velocity('scroll', {
@@ -735,6 +736,7 @@ if touchScroll is false - update index
       }
     }
   }
+
   scrollify.move = function(panel) {
     if(panel===undefined) {
       return false;
@@ -750,6 +752,12 @@ if touchScroll is false - update index
     }
     move(panel,true);
   };
+
+  scrollify.returnIndex = function() {
+    return currentIndex;
+  };
+
+
   scrollify.next = function() {
     if(index<names.length) {
       index += 1;
