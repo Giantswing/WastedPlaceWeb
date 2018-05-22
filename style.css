@@ -24,6 +24,21 @@ body{
   transition: 0.5s;
 }
 
+.carousel{
+  width: 98vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 5vh;
+  border-radius: 15px;
+  box-shadow: 0px 0px 25px rgba(255,255,255,0.5);
+}
+
+.d-block{
+  border-radius: 15px;
+}
+
 #ytIcon:hover{
   width : 15vh;
   transition:0.5s;
@@ -42,8 +57,9 @@ body{
 h1{
   text-align: center;
   text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255,255,255,0.2);
   border-radius: 5px;
+  font-size : 5vh;
 }
 
 /* SECCIONES DE LA PÁGINA */
