@@ -202,7 +202,7 @@ h1{
 
   .pageSection{
     width : 98vw;
-    height : 98vh;
+    height : 90vh;
     padding : 3vh;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -249,7 +249,7 @@ h1{
     font-size: 20px;
     vertical-align: middle;
     text-align: center;
-    margin-left: 25vw;
+    margin-left: 120%;
     margin-top: 5vh;
     font-family: 'Oswald', sans-serif;
     text-shadow: 0px 0px 15px rgba(255,255,255,0.4);
