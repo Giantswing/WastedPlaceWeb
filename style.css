@@ -89,6 +89,12 @@ h1{
 
 /* ON PC --------------------------------------------------------------------------------*/
 
+@media (max-width : 1000px){
+    .sideBarButton{
+      display: none;
+    }
+  }
+
 .pageSection{
   width : 98vw;
   height : 100vh;
