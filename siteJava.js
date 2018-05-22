@@ -17,29 +17,45 @@ function Update(){
 
   siteIndex = $.scrollify.returnIndex();
   if(siteIndex == 0){
+    /*
     barTopButton.style.display = "none";
     barUpButton.style.display = "none";
     barDownButton.style.display = "block";
-
-    //barUpButton.style.visibility = "hidden";
-    //barTopButton.style.visibility = "hidden";
-
+    */
+    barTopButton.style.visibility = "hidden";
+    barUpButton.style.visibility = "hidden";
+    barDownButton.style.visibility = "visible";
   }
   else if(siteIndex == 5){
+    /*
     barTopButton.style.display = "block";
     barUpButton.style.display = "block";
     barDownButton.style.display = "none";
+    */
+    barTopButton.style.visibility = "visible";
+    barUpButton.style.visibility = "visible";
+    barDownButton.style.visibility = "hidden";
   }
   else{
+    /*
     barTopButton.style.display = "block";
     barUpButton.style.display = "block";
     barDownButton.style.display = "block";
+    */
+    barTopButton.style.visibility = "visible";
+    barUpButton.style.visibility = "visible";
+    barDownButton.style.visibility = "visible";
   }
 
   if(siteWidth < 800){
+    /*
     barTopButton.style.display = "none";
     barUpButton.style.display = "none";
     barDownButton.style.display = "none";
+    */
+    barTopButton.style.visibility = "hidden";
+    barUpButton.style.visibility = "hidden";
+    barDownButton.style.visibility = "hidden";
   }
 }
 

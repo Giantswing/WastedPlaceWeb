@@ -87,6 +87,7 @@ h1{
   background-color: rgba(255,255,255,0.2);
   border-radius: 5px;
   font-size : 5vh;
+
 }
 
 /* SECCIONES DE LA PÁGINA */
@@ -117,7 +118,7 @@ h1{
 }
 #videos{
   background-image: url("IMG/Final/final6.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 /*-------------------------*/
