@@ -3,7 +3,7 @@ $.scrollify({
     sectionName : "section-name",
     interstitialSection : "",
     easing: "easeOutExpo",
-    scrollSpeed: 1100,
+    scrollSpeed: 800,
     offset : 0,
     scrollbars: true,
     standardScrollElements: "",
@@ -16,7 +16,6 @@ $.scrollify({
     afterResize:function() {},
     afterRender:function() {}
   });
-
 
 /*
 var currentPosition=0;

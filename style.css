@@ -7,12 +7,11 @@ html {
     background: transparent;  /* optional: just make scrollbar invisible */
 }
 
-#fbIcon{
-  width : 15vh;
-  bottom: 3%;
-  left: 2%;
-  position: absolute;
-  transition: 0.5s;
+body{
+  background-color : #000;
+  font-size: 2vw;
+  color : white;
+  font-family: 'Sunflower', sans-serif;
 }
 
 #fbIcon:hover{
@@ -20,17 +19,25 @@ html {
   transition: 0.5s;
 }
 
+h1{
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 5px;
+}
+
+/* SECCIONES DE LA PÁGINA */
 #mainMenu{
   background-image: url("IMG/Final/final2.jpg");
   background-size: cover;
   background-position: center;
 }
-
-body{
-  background-color : #000;
-  font-size: 2vw;
-  color : white;
+#bio{
+  background-image: url("IMG/Final/final1.jpg");
+  background-size: cover;
+  background-position: center;
 }
+/*-------------------------*/
 
 .sideBarButton{
   border-radius: 50%;
@@ -63,6 +70,25 @@ body{
   right: 0;
 }
 
+.main{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14vh;
+  position:relative;
+}
+
+.hexButton:hover{
+  content:url("IMG/UI/hexGeneric2.png");
+  transform: scale(1.15,1.15);
+  transition: 0.2s;
+}
+
+
+/* SPECIFIC WINDOW SIZE STUFF*/
+
+/* ON PC --------------------------------------------------------------------------------*/
+
 .pageSection{
   width : 98vw;
   height : 100vh;
@@ -73,17 +99,26 @@ body{
   position : relative;
 }
 
-.main{
-  width: 90%;
+#mainImage{
+  width: 28vw;
+  transform:scale(2,2);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 14vh;
-  position:relative;
+  display: block;
+  transition : 1s;
+}
+
+#fbIcon{
+  width : 15vh;
+  bottom: 3%;
+  left: 2%;
+  position: absolute;
+  transition: 0.5s;
 }
 
 .hexButton{
   content:url("IMG/UI/hexGeneric.png");
-  width: 17%;
+  width: 17vw;
   display: block;
   transition: 0.5s;
   user-drag: none;
@@ -93,23 +128,6 @@ body{
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-
-.hexButton:hover{
-  content:url("IMG/UI/hexGeneric2.png");
-  transform: scale(1.15,1.15);
-  transition: 0.2s;
-}
-
-#mainImage{
-  width: 28vw;
-  transform:scale(2,2);
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-
-/* MAIN MENU BUTTON POSITIONING */
 
 /*BOTTOM BUTTOM*/
 #inicioButton{
@@ -159,4 +177,93 @@ body{
   left: 0;
   right: 0;
   position: absolute;
+}
+
+/* ON MOBIILE ------------------------------------------------------------------------------------------*/
+@media (max-aspect-ratio: 1/1){
+
+  .sideBarButton{
+    display: none;
+  }
+
+  .pageSection{
+    width : 98vw;
+    height : 100vh;
+    padding : 3vh;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position : relative;
+  }
+
+  #mainImage{
+    width: 28vh;
+    transform:scale(2.5,2.5);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    position:absolute;
+    transition : 1s;
+  }
+
+  #fbIcon{
+    width : 15vh;
+    bottom: 3%;
+    right: 2%;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: 1;
+  }
+
+  .hexButton{
+    content:url("IMG/UI/hexGeneric.png");
+    width: 15vh;
+    display: block;
+    transition: 0.5s;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  /*BOTTOM BUTTOM*/
+  #inicioButton{
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 5vw;
+  }
+
+  /*BOTTOM RIGHT BUTTOM*/
+  #bioButton{
+    position: absolute;
+    margin-top: 38vh;
+    margin-left: 5vw;
+  }
+
+  /*BOTTOM LEFT BUTTON*/
+  #videoButton{
+    position: absolute;
+    margin-top: 51vh;
+    margin-left: 5vw;
+  }
+
+  /*TOP RIGHT BUTTON*/
+  #fotoButton{
+    position: absolute;
+    margin-top: 64vh;
+    margin-left: 5vw;
+  }
+
+  /*TOP LEFT BUTTON*/
+  #discoButton{
+    position: absolute;
+    margin-top: 77vh;
+    margin-left: 5vw;
+  }
 }
