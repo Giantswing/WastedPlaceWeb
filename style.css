@@ -123,11 +123,6 @@ h1{
   transition: 0.2s;
 }
 
-.iconImage{
-  width : 16vw;
-  position: absolute;
-}
-
 /* SPECIFIC WINDOW SIZE STUFF*/
 
 /* ON PC --------------------------------------------------------------------------------*/
@@ -136,6 +131,11 @@ h1{
     .sideBarButton{
       display: none;
     }
+  }
+
+  .iconImage{
+    width : 16vw;
+    position: absolute;
   }
 
 .pageSection{
@@ -271,7 +271,7 @@ h1{
 
   .pageSection{
     width : 98vw;
-    height : 90vh;
+    height : 98vh;
     padding : 3vh;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -346,6 +346,12 @@ h1{
     -webkit-user-select: none;
     -ms-user-select: none;
   }
+
+  .iconImage{
+    width : 15vh;
+    position: absolute;
+  }
+
 
   .hexText{
     font-size: 20px;
