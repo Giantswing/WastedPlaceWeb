@@ -83,14 +83,6 @@ h1{
   transition: 0.2s;
 }
 
-.hexText{
-  text-align: center;
-  margin-top: -4vh;
-  font-family: 'Oswald', sans-serif;
-  text-shadow: 0px 0px 15px rgba(255,255,255,0.4);
-}
-
-
 /* SPECIFIC WINDOW SIZE STUFF*/
 
 /* ON PC --------------------------------------------------------------------------------*/
@@ -104,7 +96,7 @@ h1{
 .pageSection{
   width : 98vw;
   height : 100vh;
-  padding : 8vh;
+  padding : 10vh;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -131,7 +123,7 @@ h1{
 
 .hexButton{
   position: absolute;
-  width: 17vw;
+  width: 16vw;
   display: block;
   transition: 0.5s;
   user-drag: none;
@@ -142,10 +134,17 @@ h1{
   -ms-user-select: none;
 }
 
+.hexText{
+  text-align: center;
+  margin-top: -4vh;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 0px 0px 15px rgba(255,255,255,0.4);
+}
+
 
 
 /*BOTTOM BUTTOM*/
-#inicioButton{
+#discoButton{
   margin-left: auto;
   margin-right: auto;
   margin-top: -4%;
@@ -155,40 +154,40 @@ h1{
 }
 
 /*BOTTOM RIGHT BUTTOM*/
-#bioButton{
+#fotoButton{
   margin-left: auto;
-  margin-right: 17%;
-  margin-top: -12%;
+  margin-right: 21%;
+  margin-top: -10%;
   left: 0;
   right: 0;
   position: absolute;
 }
 
 /*BOTTOM LEFT BUTTON*/
-#videoButton{
-  margin-left: 17%;
+#bioButton{
+  margin-left: 21%;
   margin-right: auto;
-  margin-top: -12%;
+  margin-top: -10%;
   left: 0;
   right: 0;
   position: absolute;
 }
 
 /*TOP RIGHT BUTTON*/
-#fotoButton{
+#videoButton{
   margin-left: auto;
   margin-right: 14%;
-  margin-top: -32%;
+  margin-top: -28%;
   left: 0;
   right: 0;
   position: absolute;
 }
 
 /*TOP LEFT BUTTON*/
-#discoButton{
+#inicioButton{
   margin-left: 14%;
   margin-right: auto;
-  margin-top: -32%;
+  margin-top: -28%;
   left: 0;
   right: 0;
   position: absolute;
@@ -203,7 +202,7 @@ h1{
 
   .pageSection{
     width : 98vw;
-    height : 100vh;
+    height : 98vh;
     padding : 3vh;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -235,7 +234,6 @@ h1{
   }
 
   .hexButton{
-    content:url("IMG/UI/hexGeneric.png");
     width: 15vh;
     display: block;
     transition: 0.5s;
@@ -247,36 +245,46 @@ h1{
     -ms-user-select: none;
   }
 
-  /*BOTTOM BUTTOM*/
+  .hexText{
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 25vw;
+    margin-top: 5vh;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0px 0px 15px rgba(255,255,255,0.4);
+  }
+
+  /*BUTTON 1*/
   #inicioButton{
     position: absolute;
     margin-top: 25vh;
     margin-left: 5vw;
   }
 
-  /*BOTTOM RIGHT BUTTOM*/
+  /*BUTTON 2*/
   #bioButton{
     position: absolute;
     margin-top: 38vh;
     margin-left: 5vw;
   }
 
-  /*BOTTOM LEFT BUTTON*/
-  #videoButton{
+  /*BUTTON 3*/
+  #discoButton{
     position: absolute;
     margin-top: 51vh;
     margin-left: 5vw;
   }
 
-  /*TOP RIGHT BUTTON*/
+  /*BUTTON 4*/
   #fotoButton{
     position: absolute;
     margin-top: 64vh;
     margin-left: 5vw;
   }
 
-  /*TOP LEFT BUTTON*/
-  #discoButton{
+  /*BUTTON 5*/
+  #videoButton{
     position: absolute;
     margin-top: 77vh;
     margin-left: 5vw;

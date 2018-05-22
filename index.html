@@ -23,15 +23,30 @@
     <div class = "pageSection" id = "mainMenu">
       <img id = "mainImage" src = "IMG/WastedLogo.png">
 
-      <div class = "hexButton" id="inicioButton" onclick="$(window).scrollTo('#bio',350);">
+      <div class = "hexButton" id="inicioButton" onclick="$.scrollify.move(1)">
         <img src = "IMG/UI/hexGeneric.png" class = "hexButton" >
         <div class = "hexText">ACTUALIDAD</div>
       </div>
 
-      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="bioButton" onclick="alert('aaa')">
-      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="videoButton">
-      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="fotoButton">
-      <img src = "IMG/UI/hexGeneric.png" class = "hexButton" id="discoButton">
+      <div class = "hexButton" id="bioButton" onclick="$.scrollify.move(2)">
+        <img src = "IMG/UI/hexGeneric.png" class = "hexButton" >
+        <div class = "hexText">BIOGRAFÍA</div>
+      </div>
+
+      <div class = "hexButton" id="discoButton" onclick="$.scrollify.move(3)">
+        <img src = "IMG/UI/hexGeneric.png" class = "hexButton" >
+        <div class = "hexText">DISCOS</div>
+      </div>
+
+      <div class = "hexButton" id="fotoButton" onclick="$.scrollify.move(4)">
+        <img src = "IMG/UI/hexGeneric.png" class = "hexButton" >
+        <div class = "hexText">GALERÍA</div>
+      </div>
+
+      <div class = "hexButton" id="videoButton" onclick="$.scrollify.move(5)">
+        <img src = "IMG/UI/hexGeneric.png" class = "hexButton" >
+        <div class = "hexText">VÍDEOS</div>
+      </div>
 
       <a href="https://www.facebook.com/WastedPlaceBand/ " target="_blank"><img src = "IMG/UI/facebookIcon.png" id="fbIcon"></a>
     </div>
@@ -43,16 +58,34 @@
     </div>
   </section>
 
-  <section class = "scrollSnap">
+  <section class = "scrollSnap" name = "bio">
     <div class = "pageSection" id = "bio">
       <h1>¿Quiénes somos?</h1>
     </div>
   </section>
 
+  <section class = "scrollSnap">
+    <div class = "pageSection" id = "discos">
+      <h1>Nuestra música</h1>
+    </div>
+  </section>
+
+  <section class = "scrollSnap">
+    <div class = "pageSection" id = "galeria">
+      <h1>Galería</h1>
+    </div>
+  </section>
+
+  <section class = "scrollSnap">
+    <div class = "pageSection" id = "videos">
+      <h1>Videos</h1>
+    </div>
+  </section>
+
   <!-- Horizontal Bar -->
   <div class = "sideBar">
-    <img id = "sideBarUp" class = "sideBarButton" src = "IMG/UI/arrowUp.png" onclick="sideBarMove(1)">
-    <IMG ID = "sideBarDown" class = "sideBarButton" src = "IMG/UI/arrowDown.png" onclick="sideBarMove(-1)">
+    <img id = "sideBarUp" class = "sideBarButton" src = "IMG/UI/arrowUp.png" onclick="$.scrollify.previous()">
+    <IMG ID = "sideBarDown" class = "sideBarButton" src = "IMG/UI/arrowDown.png" onclick="$.scrollify.next()">
   </div>
   <!------------------->
 
