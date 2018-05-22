@@ -16,20 +16,22 @@ function Update(){
 
   siteIndex = $.scrollify.returnIndex();
   if(siteIndex == 0){
-    barTopButton.style.display = "invisible";
-    barUpButton.style.display = "invisible";
+    barTopButton.style.display = "none";
+    barUpButton.style.display = "none";
+    barDownButton.style.display = "block";
+
     //barUpButton.style.visibility = "hidden";
     //barTopButton.style.visibility = "hidden";
-    barDownButton.style.display = "block";
+
   }
   else if(siteIndex == 5){
-    barTopButton.style.display = "invisible";
-    barUpButton.style.display = "invisible";
+    barTopButton.style.display = "block";
+    barUpButton.style.display = "block";
     barDownButton.style.display = "none";
   }
   else{
-    barTopButton.style.display = "invisible";
-    barUpButton.style.display = "invisible";
+    barTopButton.style.display = "block";
+    barUpButton.style.display = "block";
     barDownButton.style.display = "block";
   }
 
