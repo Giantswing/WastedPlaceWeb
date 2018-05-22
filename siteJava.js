@@ -7,8 +7,6 @@ var barDownButton = document.getElementById("sideBarDown");
 var siteWidth = window.innerWidth;
 var siteIndex=0;
 
-window.location.reload(true);
-
 Update();
 setInterval(Update,updateRate);
 
