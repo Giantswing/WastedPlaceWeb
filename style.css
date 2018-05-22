@@ -25,7 +25,7 @@ body{
 }
 
 .carousel{
-  width: 98vh;
+  width: 60vw;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -139,6 +139,8 @@ h1{
   transition: 0.2s;
 }
 
+
+
 /* SPECIFIC WINDOW SIZE STUFF*/
 
 /* ON PC --------------------------------------------------------------------------------*/
@@ -153,6 +155,8 @@ h1{
     width : 16vw;
     position: absolute;
   }
+
+
 
 .pageSection{
   width : 100vw;
@@ -284,6 +288,7 @@ h1{
   .sideBarButton{
     display: none;
   }
+
 
   .pageSection{
     width : 98vw;
